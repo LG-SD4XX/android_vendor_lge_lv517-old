@@ -33,6 +33,14 @@ PRODUCT_COPY_FILES += \
 # lib files
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/lv517/proprietary/lib,system/lib)
+    
+# lib64 files
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/lge/lv517/proprietary/lib64,system/lib64)
+    
+# lib64 files
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/lge/lv517/proprietary/vendor/lib64,system/vendor/lib64)
 
 # etc files
 PRODUCT_COPY_FILES += \
@@ -46,6 +54,6 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/lge/lv517/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
-#PRODUCT_PACKAGES += \
-#    libtime_genoff
+PRODUCT_PACKAGES += \
+    libtime_genoff 
 
