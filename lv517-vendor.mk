@@ -346,8 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/lv517/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/lv517/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/lge/lv517/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/lge/lv517/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
@@ -360,25 +358,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/camera/film/8_film.dat:system/etc/camera/film/8_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/9_film.dat:system/etc/camera/film/9_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/hi1332_lgit_chromatix.xml:system/etc/camera/hi1332_lgit_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/hi1332_ofilm_chromatix.xml:system/etc/camera/hi1332_ofilm_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/hi1332_sunny_chromatix.xml:system/etc/camera/hi1332_sunny_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/hi553_chromatix.xml:system/etc/camera/hi553_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/hi553_lv9_chromatix.xml:system/etc/camera/hi553_lv9_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/hi842_chromatix.xml:system/etc/camera/hi842_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx298_gt24c64_chromatix.xml:system/etc/camera/imx298_gt24c64_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
-    vendor/lge/lv517/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/mn34153_chromatix.xml:system/etc/camera/mn34153_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/ov7251_chromatix.xml:system/etc/camera/ov7251_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera/s5k5e2_chromatix.xml:system/etc/camera/s5k5e2_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/s5k5e8_cowell_chromatix.xml:system/etc/camera/s5k5e8_cowell_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
@@ -426,8 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/lge/lv517/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9714a.so:system/vendor/lib/libactuator_dw9714a.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
     vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/lge/lv517/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lge/lv517/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -447,21 +426,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_snapshot.so:system/vendor/lib/libchromatix_hi1332_lgit_snapshot.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_lgit_zsl_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_lgit_zsl_video_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_4k_preview_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_4k_video_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_common.so:system/vendor/lib/libchromatix_hi1332_ofilm_common.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_liveshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_video.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_default_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_default_preview_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_default_video.so:system/vendor/lib/libchromatix_hi1332_ofilm_default_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_default_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_default_video_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_postproc.so:system/vendor/lib/libchromatix_hi1332_ofilm_postproc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_preview.so:system/vendor/lib/libchromatix_hi1332_ofilm_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_snapshot.so:system/vendor/lib/libchromatix_hi1332_ofilm_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_zsl_preview_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_zsl_video_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_sunny_4k_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_sunny_4k_video_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_common.so:system/vendor/lib/libchromatix_hi1332_sunny_common.so \
@@ -477,29 +441,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_snapshot.so:system/vendor/lib/libchromatix_hi1332_sunny_snapshot.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_sunny_zsl_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_sunny_zsl_video_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_a3_default_preview.so:system/vendor/lib/libchromatix_hi553_a3_default_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_a3_default_video.so:system/vendor/lib/libchromatix_hi553_a3_default_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_a3_hfr_120.so:system/vendor/lib/libchromatix_hi553_a3_hfr_120.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_a3_hfr_60.so:system/vendor/lib/libchromatix_hi553_a3_hfr_60.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_a3_hfr_90.so:system/vendor/lib/libchromatix_hi553_a3_hfr_90.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_common.so:system/vendor/lib/libchromatix_hi553_common.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_hi553_cpp_ds_chromatix.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_hfr_120.so:system/vendor/lib/libchromatix_hi553_cpp_hfr_120.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_hfr_60.so:system/vendor/lib/libchromatix_hi553_cpp_hfr_60.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_hfr_90.so:system/vendor/lib/libchromatix_hi553_cpp_hfr_90.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_liveshot.so:system/vendor/lib/libchromatix_hi553_cpp_liveshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_preview.so:system/vendor/lib/libchromatix_hi553_cpp_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_snapshot.so:system/vendor/lib/libchromatix_hi553_cpp_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_us_chromatix.so:system/vendor/lib/libchromatix_hi553_cpp_us_chromatix.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_video.so:system/vendor/lib/libchromatix_hi553_cpp_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_cpp_video_full.so:system/vendor/lib/libchromatix_hi553_cpp_video_full.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_default_video.so:system/vendor/lib/libchromatix_hi553_default_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_postproc.so:system/vendor/lib/libchromatix_hi553_postproc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_preview.so:system/vendor/lib/libchromatix_hi553_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_snapshot.so:system/vendor/lib/libchromatix_hi553_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_video_full.so:system/vendor/lib/libchromatix_hi553_video_full.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_zsl_preview.so:system/vendor/lib/libchromatix_hi553_zsl_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi553_zsl_video.so:system/vendor/lib/libchromatix_hi553_zsl_video.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi842_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi842_4k_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi842_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi842_4k_video_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi842_common.so:system/vendor/lib/libchromatix_hi842_common.so \
@@ -526,64 +467,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi842_video_4k.so:system/vendor/lib/libchromatix_hi842_video_4k.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi842_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi842_zsl_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi842_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi842_zsl_video_bu64244gwz.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_4k_preview_lc898122.so:system/vendor/lib/libchromatix_imx234_4k_preview_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_4k_video_lc898122.so:system/vendor/lib/libchromatix_imx234_4k_video_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_common.so:system/vendor/lib/libchromatix_imx234_common.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_120.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_60.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_90.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_liveshot.so:system/vendor/lib/libchromatix_imx234_cpp_liveshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_preview.so:system/vendor/lib/libchromatix_imx234_cpp_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot_hdr.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_video_hdr.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_default_preview_lc898122.so:system/vendor/lib/libchromatix_imx234_default_preview_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_default_video.so:system/vendor/lib/libchromatix_imx234_default_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_default_video_lc898122.so:system/vendor/lib/libchromatix_imx234_default_video_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hdr_snapshot_lc898122.so:system/vendor/lib/libchromatix_imx234_hdr_snapshot_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hdr_video_lc898122.so:system/vendor/lib/libchromatix_imx234_hdr_video_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hfr_120.so:system/vendor/lib/libchromatix_imx234_hfr_120.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hfr_120_lc898122.so:system/vendor/lib/libchromatix_imx234_hfr_120_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hfr_60.so:system/vendor/lib/libchromatix_imx234_hfr_60.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hfr_60_lc898122.so:system/vendor/lib/libchromatix_imx234_hfr_60_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hfr_90.so:system/vendor/lib/libchromatix_imx234_hfr_90.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_hfr_90_lc898122.so:system/vendor/lib/libchromatix_imx234_hfr_90_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_liveshot.so:system/vendor/lib/libchromatix_imx234_liveshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_postproc.so:system/vendor/lib/libchromatix_imx234_postproc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_preview.so:system/vendor/lib/libchromatix_imx234_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:system/vendor/lib/libchromatix_imx234_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_snapshot_hdr.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_video_hdr.so:system/vendor/lib/libchromatix_imx234_video_hdr.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_imx234_zsl_preview_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_imx234_zsl_video_lc898122.so:system/vendor/lib/libchromatix_imx234_zsl_video_lc898122.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_common.so:system/vendor/lib/libchromatix_mn34153_common.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_mn34153_cpp_ds_chromatix.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_hfr_120.so:system/vendor/lib/libchromatix_mn34153_cpp_hfr_120.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_hfr_60.so:system/vendor/lib/libchromatix_mn34153_cpp_hfr_60.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_hfr_90.so:system/vendor/lib/libchromatix_mn34153_cpp_hfr_90.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_liveshot.so:system/vendor/lib/libchromatix_mn34153_cpp_liveshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_preview.so:system/vendor/lib/libchromatix_mn34153_cpp_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_snapshot.so:system/vendor/lib/libchromatix_mn34153_cpp_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_us_chromatix.so:system/vendor/lib/libchromatix_mn34153_cpp_us_chromatix.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_video.so:system/vendor/lib/libchromatix_mn34153_cpp_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_cpp_video_full.so:system/vendor/lib/libchromatix_mn34153_cpp_video_full.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_default_preview_dw9718.so:system/vendor/lib/libchromatix_mn34153_default_preview_dw9718.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_default_video.so:system/vendor/lib/libchromatix_mn34153_default_video.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_default_video_dw9718.so:system/vendor/lib/libchromatix_mn34153_default_video_dw9718.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_hfr_120.so:system/vendor/lib/libchromatix_mn34153_hfr_120.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_hfr_120_dw9718.so:system/vendor/lib/libchromatix_mn34153_hfr_120_dw9718.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_hfr_60.so:system/vendor/lib/libchromatix_mn34153_hfr_60.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_hfr_60_dw9718.so:system/vendor/lib/libchromatix_mn34153_hfr_60_dw9718.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_hfr_90.so:system/vendor/lib/libchromatix_mn34153_hfr_90.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_hfr_90_dw9718.so:system/vendor/lib/libchromatix_mn34153_hfr_90_dw9718.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_liveshot.so:system/vendor/lib/libchromatix_mn34153_liveshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_postproc.so:system/vendor/lib/libchromatix_mn34153_postproc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_preview.so:system/vendor/lib/libchromatix_mn34153_preview.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_snapshot.so:system/vendor/lib/libchromatix_mn34153_snapshot.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_video_full.so:system/vendor/lib/libchromatix_mn34153_video_full.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_zsl_preview_dw9718.so:system/vendor/lib/libchromatix_mn34153_zsl_preview_dw9718.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_mn34153_zsl_video_dw9718.so:system/vendor/lib/libchromatix_mn34153_zsl_video_dw9718.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_s5k5e8_cowell_3a_vt.so:system/vendor/lib/libchromatix_s5k5e8_cowell_3a_vt.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_s5k5e8_cowell_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_cowell_a3_default_preview.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_s5k5e8_cowell_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_cowell_a3_default_video.so \
@@ -639,7 +522,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera2_stats_algorithm_sensors.so:system/vendor/lib/libmmcamera2_stats_algorithm_sensors.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_at24c16d_eeprom.so:system/vendor/lib/libmmcamera_at24c16d_eeprom.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
@@ -653,14 +535,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi1332_lgit.so:system/vendor/lib/libmmcamera_hi1332_lgit.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi1332_ofilm.so:system/vendor/lib/libmmcamera_hi1332_ofilm.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi1332_sunny.so:system/vendor/lib/libmmcamera_hi1332_sunny.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi553.so:system/vendor/lib/libmmcamera_hi553.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi842.so:system/vendor/lib/libmmcamera_hi842.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi842_eeprom.so:system/vendor/lib/libmmcamera_hi842_eeprom.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -696,23 +573,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_lgit_hi1332_eeprom.so:system/vendor/lib/libmmcamera_lgit_hi1332_eeprom.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_lgit_imx234_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx234_eeprom.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_lgit_imx258_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx258_eeprom.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so:system/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_mn34153.so:system/vendor/lib/libmmcamera_mn34153.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so:system/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ov8858_otp.so:system/vendor/lib/libmmcamera_ov8858_otp.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_s5k5e2_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_eeprom.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_s5k5e8_cowell.so:system/vendor/lib/libmmcamera_s5k5e8_cowell.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny.so:system/vendor/lib/libmmcamera_s5k5e8_sunny.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
