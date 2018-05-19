@@ -65,8 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/lv517/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/lv517/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/lge/lv517/proprietary/priv-app/CNEService/oat/arm/CNEService.odex:system/priv-app/CNEService/oat/arm/CNEService.odex \
-    vendor/lge/lv517/proprietary/priv-app/QtiTetherService/oat/arm/QtiTetherService.odex:system/priv-app/QtiTetherService/oat/arm/QtiTetherService.odex \
     vendor/lge/lv517/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/lge/lv517/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/lv517/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
