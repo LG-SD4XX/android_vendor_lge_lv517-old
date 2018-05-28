@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/lge/lv517/proprietary/bin/cnd:system/bin/cnd \
-    vendor/lge/lv517/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lge/lv517/proprietary/bin/iop:system/bin/iop \
     vendor/lge/lv517/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/lv517/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -25,41 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/lv517/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/lv517/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/lge/lv517/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/lge/lv517/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/lge/lv517/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/lge/lv517/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/lge/lv517/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/lge/lv517/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/lge/lv517/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/lge/lv517/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
-    vendor/lge/lv517/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lge/lv517/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lge/lv517/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/lge/lv517/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/lge/lv517/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/lge/lv517/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/lge/lv517/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/lv517/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/lge/lv517/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/lv517/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/lge/lv517/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lge/lv517/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -118,17 +87,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libaudiohookclient.so:system/vendor/lib/libaudiohookclient.so \
     vendor/lge/lv517/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/lge/lv517/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/lge/lv517/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/lge/lv517/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/lge/lv517/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/lge/lv517/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/lv517/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -199,11 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/lv517/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/lv517/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/lv517/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/lv517/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/lv517/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/lv517/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1 \
@@ -267,7 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
@@ -281,15 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
@@ -308,7 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/lge/lv517/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -317,18 +262,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
-    CNEService \
-    QtiTetherService \
     dpmserviceapp
+    
 PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/lv517/proprietary/bin/fingerprintd:system/bin/fingerprintd \
@@ -628,13 +567,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/lge/lv517/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/lge/lv517/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/lge/lv517/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
-    vendor/lge/lv517/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/lge/lv517/proprietary/bin/sensorservice:system/bin/sensorservice \
-    vendor/lge/lv517/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/lge/lv517/proprietary/bin/wififtmd:system/bin/wififtmd \
-    vendor/lge/lv517/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/lge/lv517/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/lge/lv517/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/hi1332_ofilm_chromatix.xml:system/etc/camera/hi1332_ofilm_chromatix.xml \
@@ -668,37 +600,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/lv517/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/lv517/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/lge/lv517/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lge/lv517/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lge/lv517/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lge/lv517/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/lge/lv517/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/lge/lv517/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/lge/lv517/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/lge/lv517/proprietary/etc/permissions/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/android.hardware.sensor.stepcounter.xml:system/etc/permissions/android.hardware.sensor.stepcounter.xml \
-    vendor/lge/lv517/proprietary/etc/permissions/android.hardware.sensor.stepdetector.xml:system/etc/permissions/android.hardware.sensor.stepdetector.xml \
     vendor/lge/lv517/proprietary/etc/security/mac_permissions.xml:system/etc/security/mac_permissions.xml \
     vendor/lge/lv517/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/lge/lv517/proprietary/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
     vendor/lge/lv517/proprietary/etc/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf \
-    vendor/lge/lv517/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
-    vendor/lge/lv517/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/lv517/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lge/lv517/proprietary/framework/org.apache.http.legacy.jar:system/framework/org.apache.http.legacy.jar \
     vendor/lge/lv517/proprietary/framework/org.codeaurora.camera.jar:system/framework/org.codeaurora.camera.jar \
     vendor/lge/lv517/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
-    vendor/lge/lv517/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/lv517/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/lge/lv517/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-    vendor/lge/lv517/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/lge/lv517/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/lv517/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/lv517/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/lge/lv517/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/lge/lv517/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/lge/lv517/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/lge/lv517/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/lge/lv517/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
@@ -707,20 +621,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/lge/lv517/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/lge/lv517/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
-    vendor/lge/lv517/proprietary/priv-app/CNEService/oat/arm/CNEService.odex:system/priv-app/CNEService/oat/arm/CNEService.odex \
-    vendor/lge/lv517/proprietary/priv-app/QtiTetherService/oat/arm/QtiTetherService.odex:system/priv-app/QtiTetherService/oat/arm/QtiTetherService.odex \
     vendor/lge/lv517/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
-    vendor/lge/lv517/proprietary/vendor/bin/enable_uninstall.sh:system/vendor/bin/enable_uninstall.sh \
-    vendor/lge/lv517/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
-    vendor/lge/lv517/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
-    vendor/lge/lv517/proprietary/vendor/bin/mm-qjpeg-dec-test:system/vendor/bin/mm-qjpeg-dec-test \
-    vendor/lge/lv517/proprietary/vendor/bin/mm-qjpeg-enc-test:system/vendor/bin/mm-qjpeg-enc-test \
-    vendor/lge/lv517/proprietary/vendor/bin/mm-qomx-idec-test:system/vendor/bin/mm-qomx-idec-test \
-    vendor/lge/lv517/proprietary/vendor/bin/mm-qomx-ienc-test:system/vendor/bin/mm-qomx-ienc-test \
-    vendor/lge/lv517/proprietary/vendor/bin/ntcode_listing.sh:system/vendor/bin/ntcode_listing.sh \
-    vendor/lge/lv517/proprietary/vendor/bin/qjpeg-dma-test:system/vendor/bin/qjpeg-dma-test \
-    vendor/lge/lv517/proprietary/vendor/bin/rmplb.sh:system/vendor/bin/rmplb.sh \
-    vendor/lge/lv517/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/lv517/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/lge/lv517/proprietary/vendor/lib/hw/power.msm8937.so:system/vendor/lib/hw/power.msm8937.so \
     vendor/lge/lv517/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
@@ -836,7 +737,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
     vendor/lge/lv517/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
     vendor/lge/lv517/proprietary/vendor/lib/libhbtpjni.so:system/vendor/lib/libhbtpjni.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_at24c16d_eeprom.so:system/vendor/lib/libmmcamera_at24c16d_eeprom.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi1332_ofilm.so:system/vendor/lib/libmmcamera_hi1332_ofilm.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi553.so:system/vendor/lib/libmmcamera_hi553.so \
@@ -854,8 +754,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/lv517/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/lge/lv517/proprietary/vendor/lib/libswresample.so:system/vendor/lib/libswresample.so \
     vendor/lge/lv517/proprietary/vendor/lib/libswscale.so:system/vendor/lib/libswscale.so \
@@ -899,6 +797,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libsc-a2xx.so:system/vendor/lib64/libsc-a2xx.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so
