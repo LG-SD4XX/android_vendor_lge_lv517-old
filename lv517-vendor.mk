@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/lge/lv517/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/lv517/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/lge/lv517/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
     vendor/lge/lv517/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
@@ -86,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/lge/lv517/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lge/lv517/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
     vendor/lge/lv517/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/lge/lv517/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/lv517/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -566,9 +564,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/lge/lv517/proprietary/etc/camera_config.xml:system/etc/camera_config.xml \
-    vendor/lge/lv517/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -578,54 +573,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lge/lv517/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/lv517/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/lge/lv517/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/lge/lv517/proprietary/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
-    vendor/lge/lv517/proprietary/etc/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf \
     vendor/lge/lv517/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
-    vendor/lge/lv517/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-    vendor/lge/lv517/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/lge/lv517/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
-    vendor/lge/lv517/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/lge/lv517/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/lge/lv517/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/lge/lv517/proprietary/lib/libxml2.so:system/lib/libxml2.so \
-    vendor/lge/lv517/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
-    vendor/lge/lv517/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
-    vendor/lge/lv517/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/lge/lv517/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libavcodec.so:system/vendor/lib/libavcodec.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libavformat.so:system/vendor/lib/libavformat.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libavutil.so:system/vendor/lib/libavutil.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_extractor.so:system/vendor/lib/libffmpeg_extractor.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libhbtpjni.so:system/vendor/lib/libhbtpjni.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libswresample.so:system/vendor/lib/libswresample.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libswscale.so:system/vendor/lib/libswscale.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libuicc.so:system/vendor/lib/libuicc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/lge/lv517/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/lge/lv517/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
+    vendor/lge/lv517/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/lge/lv517/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/lge/lv517/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/lge/lv517/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/lge/lv517/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
