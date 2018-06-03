@@ -204,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/lv517/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/lv517/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-    vendor/lge/lv517/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/lge/lv517/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
@@ -480,17 +479,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/lge/lv517/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/lge/lv517/proprietary/etc/camera_config.xml:system/etc/camera_config.xml \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/lge/lv517/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/lge/lv517/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lge/lv517/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/lge/lv517/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/lv517/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
