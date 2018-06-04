@@ -204,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/lv517/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/lv517/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/lge/lv517/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
