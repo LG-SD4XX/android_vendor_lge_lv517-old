@@ -488,11 +488,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/lv517/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/lv517/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/lge/lv517/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/lge/lv517/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lge/lv517/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/lv517/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/lge/lv517/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/lge/lv517/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lge/lv517/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/lge/lv517/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
