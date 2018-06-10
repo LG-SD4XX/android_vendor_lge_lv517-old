@@ -21,8 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/lge/lv517/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lge/lv517/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/lge/lv517/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
-    vendor/lge/lv517/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lge/lv517/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/lv517/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lge/lv517/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
