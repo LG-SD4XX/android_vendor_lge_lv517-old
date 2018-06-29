@@ -313,6 +313,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common
+
 PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/lv517/proprietary/bin/fingerprintd:system/bin/fingerprintd \
@@ -667,7 +668,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lge/lv517/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/lv517/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/lge/lv517/proprietary/framework/org.apache.http.legacy.jar:/system/framework/org.apache.http.legacy.jar
+    vendor/lge/lv517/proprietary/framework/org.apache.http.legacy.jar:/system/framework/org.apache.http.legacy.jar \
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location
