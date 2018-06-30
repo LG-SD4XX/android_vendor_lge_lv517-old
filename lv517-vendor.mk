@@ -432,6 +432,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/lv517/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_lgit_4k_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_lgit_4k_video_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_common.so:system/vendor/lib/libchromatix_hi1332_lgit_common.so \
@@ -669,6 +670,35 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/lv517/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/lv517/proprietary/framework/org.apache.http.legacy.jar:/system/framework/org.apache.http.legacy.jar \
+    vendor/lge/lv517/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/lv517/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/lge/lv517/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/lge/lv517/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lge/lv517/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
+    vendor/lge/lv517/proprietary/vendor/lib/librilutils.so:system/vendor/lib/librilutils.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_bsp_qcci.so:system/vendor/lib/libvss_bsp_qcci.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_common_core.so:system/vendor/lib/libvss_common_core.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_common_idl.so:system/vendor/lib/libvss_common_idl.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_dmi_qcci.so:system/vendor/lib/libvss_dmi_qcci.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_gnss_qcci.so:system/vendor/lib/libvss_gnss_qcci.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_ims_qcci.so:system/vendor/lib/libvss_ims_qcci.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_resim_core.so:system/vendor/lib/libvss_resim_core.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_resim_idl.so:system/vendor/lib/libvss_resim_idl.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_resim_iface.so:system/vendor/lib/libvss_resim_iface.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libvss_sar_qcci.so:system/vendor/lib/libvss_sar_qcci.so
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location
