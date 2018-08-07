@@ -16,12 +16,30 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/lge/lv517/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/lge/lv517/proprietary/bin/cnss_diag:system/bin/cnss_diag \
+    vendor/lge/lv517/proprietary/bin/ipacm:system/bin/ipacm \
+    vendor/lge/lv517/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
+    vendor/lge/lv517/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/lge/lv517/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/lv517/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/lge/lv517/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/lge/lv517/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/lge/lv517/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lge/lv517/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/lge/lv517/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lge/lv517/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/lge/lv517/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
+    vendor/lge/lv517/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
+    vendor/lge/lv517/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/lge/lv517/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lge/lv517/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/lge/lv517/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
     vendor/lge/lv517/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/lge/lv517/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
     vendor/lge/lv517/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
@@ -222,6 +240,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/camera/s5k5e8_cowell_chromatix.xml:system/etc/camera/s5k5e8_cowell_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera_config.xml:system/etc/camera_config.xml \
+    vendor/lge/lv517/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -251,6 +270,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lge/lv517/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lge/lv517/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/lge/lv517/proprietary/framework/org.codeaurora.camera.jar:system/framework/org.codeaurora.camera.jar \
     vendor/lge/lv517/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/lge/lv517/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/lge/lv517/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -265,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/lib/libgf_algo.so:system/lib/libgf_algo.so \
     vendor/lge/lv517/proprietary/lib/libgf_ca.so:system/lib/libgf_ca.so \
     vendor/lge/lv517/proprietary/lib/libgf_hal.so:system/lib/libgf_hal.so \
+    vendor/lge/lv517/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/lv517/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/lv517/proprietary/lib/liblghdri.so:system/lib/liblghdri.so \
     vendor/lge/lv517/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -280,9 +301,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
     vendor/lge/lv517/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/lv517/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    vendor/lge/lv517/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/lge/lv517/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
+    vendor/lge/lv517/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
+    vendor/lge/lv517/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/lge/lv517/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+    vendor/lge/lv517/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lge/lv517/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/lge/lv517/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/lv517/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/lv517/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/lv517/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:system/vendor/lib/hw/activity_recognition.msm8937.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lge/lv517/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lge/lv517/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/lge/lv517/proprietary/vendor/lib/libImageCorrectionWrapper.so:system/vendor/lib/libImageCorrectionWrapper.so \
@@ -527,8 +562,24 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lge/lv517/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/lge/lv517/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_extractor.so:system/vendor/lib/libffmpeg_extractor.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_at24c16d_eeprom.so:system/vendor/lib/libmmcamera_at24c16d_eeprom.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi1332_ofilm.so:system/vendor/lib/libmmcamera_hi1332_ofilm.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_hi553.so:system/vendor/lib/hi553.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_lgit_imx234_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx234_eeprom.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_lgit_imx258_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx258_eeprom.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so:system/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so\
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so:system/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_ov8858_otp.so:system/vendor/lib/libmmcamera_ov8858_otp.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libmmcamera_s5k5e2_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_eeprom.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libswresample.so:system/vendor/lib/libswresample.so \
     vendor/lge/lv517/proprietary/vendor/lib64/hw/activity_recognition.msm8937.so:system/vendor/lib64/hw/activity_recognition.msm8937.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
@@ -559,8 +610,30 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/lge/lv517/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
+    vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/lge/lv517/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/lge/lv517/proprietary/lib/libjpeg-support.so:system/lib/libjpeg-support.so \
+    vendor/lge/lv517/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxCore.so:system/lib64/libOmxCore.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxEvrcEnc.so:system/lib64/libOmxEvrcEnc.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxQcelp13Enc.so:system/lib64/libOmxQcelp13Enc.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxVdec.so:system/lib64/libOmxVdec.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
+    vendor/lge/lv517/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
+    vendor/lge/lv517/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
+    vendor/lge/lv517/proprietary/lib64/libstagefright_omx.so:system/lib64/libstagefright_omx.so \
+    vendor/lge/lv517/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/lge/lv517/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/lge/lv517/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_extractor.so:system/vendor/lib/libffmpeg_extractor.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
+    com.qti.location.sdk \
     libloc_api_v02
