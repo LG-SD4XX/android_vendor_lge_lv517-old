@@ -631,7 +631,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_extractor.so:system/vendor/lib/libffmpeg_extractor.so \
     vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
     vendor/lge/lv517/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so
+    vendor/lge/lv517/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
+    vendor/lge/lv517/proprietary/lib/libdhcpcd.so:system/lib/libdhcpcd.so \
+    vendor/lge/lv517/proprietary/lib/libgpg-error.so:system/lib/libgpg-error.so \
+    vendor/lge/lv517/proprietary/lib/libipanat.so:system/lib/libipanat.so \
+    vendor/lge/lv517/proprietary/lib/libnetfilter_conntrack.so:system/lib/libnetfilter_conntrack.so \
+    vendor/lge/lv517/proprietary/lib/libnfnetlink.so:system/lib/libnfnetlink.so \
+    vendor/lge/lv517/proprietary/lib/libstagefright_soft_avcenc.so:system/lib/libstagefright_soft_avcenc.so \
+    vendor/lge/lv517/proprietary/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so \
+    vendor/lge/lv517/proprietary/lib/libstagefright_soft_vpxenc.so:system/lib/libstagefright_soft_vpxenc.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
+    vendor/lge/lv517/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
