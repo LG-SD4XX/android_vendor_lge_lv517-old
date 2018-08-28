@@ -235,12 +235,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/camera/film/8_film.dat:system/etc/camera/film/8_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/film/9_film.dat:system/etc/camera/film/9_film.dat \
     vendor/lge/lv517/proprietary/etc/camera/hi1332_lgit_chromatix.xml:system/etc/camera/hi1332_lgit_chromatix.xml \
+    vendor/lge/lv517/proprietary/etc/camera/hi1332_ofilm_chromatix.xml:system/etc/camera/hi1332_ofilm_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/hi1332_sunny_chromatix.xml:system/etc/camera/hi1332_sunny_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/hi842_chromatix.xml:system/etc/camera/hi842_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/s5k5e8_cowell_chromatix.xml:system/etc/camera/s5k5e8_cowell_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
-    vendor/lge/lv517/proprietary/etc/camera_config.xml:system/etc/camera_config.xml \
     vendor/lge/lv517/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
+    vendor/lge/lv517/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/lv517/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -324,6 +325,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/lge/lv517/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9714a.so:system/vendor/lib/libactuator_dw9714a.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
     vendor/lge/lv517/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/lge/lv517/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/lv517/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
@@ -347,6 +350,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_snapshot.so:system/vendor/lib/libchromatix_hi1332_lgit_snapshot.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_lgit_zsl_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_lgit_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_lgit_zsl_video_bu64244gwz.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_4k_preview_bu64244gwz.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_4k_video_bu64244gwz.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_common.so:system/vendor/lib/libchromatix_hi1332_ofilm_common.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_liveshot.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_preview.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_snapshot.so:/vendor/lib/libchromatix_hi1332_ofilm_cpp_snapshot.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_cpp_video.so:system/vendor/lib/libchromatix_hi1332_ofilm_cpp_video.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_default_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_default_preview_bu64244gwz.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_default_video.so:system/vendor/lib/libchromatix_hi1332_ofilm_default_video.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_default_video_bu64244gwz.so:/vendor/lib/libchromatix_hi1332_ofilm_default_video_bu64244gwz.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_postproc.so:system/vendor/lib/libchromatix_hi1332_ofilm_postproc.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_preview.so:system/vendor/lib/libchromatix_hi1332_ofilm_preview.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_snapshot.so:system/vendor/lib/libchromatix_hi1332_ofilm_snapshot.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_zsl_preview_bu64244gwz.so \
+    vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_ofilm_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_ofilm_zsl_video_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_sunny_4k_preview_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_hi1332_sunny_4k_video_bu64244gwz.so \
     vendor/lge/lv517/proprietary/vendor/lib/libchromatix_hi1332_sunny_common.so:system/vendor/lib/libchromatix_hi1332_sunny_common.so \
@@ -603,15 +621,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/lge/lv517/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lge/lv517/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/lge/lv517/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/lge/lv517/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/lge/lv517/proprietary/lib/libjpeg-support.so:system/lib/libjpeg-support.so \
     vendor/lge/lv517/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/lge/lv517/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
@@ -648,6 +663,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/lge/lv517/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/lv517/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
+    vendor/lge/lv517/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
