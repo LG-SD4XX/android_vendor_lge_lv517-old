@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<policy name="generic" schema_ver="1" policy_ver = "2016.05.26.262.01">
+  <initial>
+    <actions>
+
+      <!-- roaming partner list per each country START -->
+
+<!-- Input each operator's roaming partner list here          -->
+<!-- <plmn_list name="rp_in_roamingMCC">         -->
+<!--   111-11 222-22 333-333                                  -->
+<!-- </plmn_list>                                             -->
+
+
+      <!--  dtag-germany roaming partner START   -->
+      <!--  korea   -->
+      <plmn_list name="rp_in_450">
+        450-05 450-08
+      </plmn_list>
+
+      <!--  us   -->
+      <plmn_list name="rp_in_310">
+        310-410 310-260
+      </plmn_list>
+
+      <!--  japan   -->
+      <plmn_list name="rp_in_440">
+        440-12 440-20
+      </plmn_list>
+
+      <!--  uk   -->
+      <plmn_list name="rp_in_234">
+        234-10 234-20 235-94 234-30 234-33 234-15
+      </plmn_list>
+
+      <!--  france   -->
+      <plmn_list name="rp_in_208">
+        208-01 208-09 208-10 208-20
+      </plmn_list>
+
+      <!--  brazil   -->
+      <plmn_list name="rp_in_724">
+        724-05 724-02 724-03 724-04 724-06 724-10 724-11 724-23 724-16 724-31	724-39
+      </plmn_list>
+
+      <!--  turkey   -->
+      <plmn_list name="rp_in_286">
+        286-01 286-02 286-03
+      </plmn_list>
+
+      <!--  mexico   -->
+      <plmn_list name="rp_in_334">
+        334-020 334-050 334-090
+      </plmn_list>
+
+      <!--  russia  -->
+      <plmn_list name="rp_in_250">
+        250-01 250-02 250-07 250-15 250-99
+      </plmn_list>
+
+      <!--  china  -->
+      <plmn_list name="rp_in_460">
+        460-00 460-02 460-07 460-08 460-01 460-09
+      </plmn_list>
+
+      <!--  hk  -->
+      <plmn_list name="rp_in_454">
+        454-03 454-04 454-12 454-13 454-06 454-15 454-17 454-00 454-02 454-18
+      </plmn_list>
+
+      <!--  singapore  -->
+      <plmn_list name="rp_in_525">
+        525-01 525-02 525-03 525-04 525-05
+      </plmn_list>
+
+      <!--  canada   -->
+      <plmn_list name="rp_in_302">
+        302-720 302-610 302-220
+      </plmn_list>
+
+      <!--  indonesia  -->
+      <plmn_list name="rp_in_510">
+        510-10 510-01 510-21 510-11
+      </plmn_list>
+      <!--  dtag-germany roaming partner END   -->
+
+      <!-- roaming partner list per each country END -->
+
+   </actions>
+ </initial>
+</policy>
+
